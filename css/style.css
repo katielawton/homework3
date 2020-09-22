@@ -17,6 +17,7 @@ body{
   background-size: cover;
   background-position: center;
   background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -50,13 +51,12 @@ a{
 
 
 table{
+    padding: 10px;
     border: 2px solid #000000;
     border-radius: 10px;
     border-collapse: separate;
     margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-
+    margin-right: auto;  
 }
 
 .colhead{
@@ -77,7 +77,7 @@ table{
 }
 
 td{
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   color:#000000;
   border-top: 2px solid #000000;
