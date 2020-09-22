@@ -51,7 +51,7 @@ a{
 
 table{
     border: 2px solid #000000;
-    border-radius: 15px;
+    border-radius: 10px;
     border-collapse: separate;
     margin-left: auto;
     margin-right: auto;
@@ -88,17 +88,17 @@ tr:nth-child(even){
 
 tr:hover{
   background:rgba(126,8,48,0.25);
-  border-radius: 15px;
+  border-radius: 10px;
 
 }
 
 thead tr:first-child th:first-child{
-  border-top-left-radius: 15px;
+  border-top-left-radius: 10px;
 }
 
 
 thead tr:first-child th:last-child{
-  border-top-right-radius: 15px;
+  border-top-right-radius: 10px;
 }
 
 tbody th:first-child{
@@ -106,11 +106,11 @@ tbody th:first-child{
 }
 
 tbody tr:last-child th:first-child{
-  border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 10px;
 }
 
 tbody tr:last-child td:last-child{
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 10px;
 }
 
 
