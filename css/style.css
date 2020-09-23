@@ -13,7 +13,7 @@ body{
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
-  background-image: url('../images/pigeon-background.jpeg');
+  background-image: url("../images/pigeon-background.JPEG");
   background-size: cover;
   background-position: center;
   background-color: #DDDDDD;
@@ -62,7 +62,8 @@ table{
 .colhead{
   background-color: #7e0820;
   color: #FFFFFF;
-  text-align: center;
+  vertical-align: middle;
+  
   min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
