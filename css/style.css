@@ -63,7 +63,7 @@ table{
   background-color: #7e0820;
   color: #FFFFFF;
   vertical-align: middle;
-  
+  /*doesn't include padding*/
   min-width: 125px;
   padding: 10px;
   text-transform: uppercase;
@@ -93,8 +93,6 @@ tr:nth-child(even){
 tr:hover{
   visibility: visible;
   background:rgba(126,8,32,0.25);
-  /*border-radius: 10px;*/
-
 }
 
 thead tr:first-child th:first-child{
